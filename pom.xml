@@ -6,4 +6,19 @@
   <version>1.0-SNAPSHOT</version>
   <name>Archetype - HW22</name>
   <url>http://maven.apache.org</url>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.json</groupId>
+      <artifactId>json</artifactId>
+      <version>20240303</version>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>RELEASE</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
 </project>
